@@ -1,0 +1,9 @@
+research_task:
+  description : do fully professional research about {topic} and also tell about the source of your research
+  expected_output : give a professional output about the letest interesting updates and facts about {topic} in proper report format
+  agent : research_agent
+
+writer_task:
+  description : write a fully professional report for {topic} base on the research provided by the research agent
+  expected_output : a fully professional report formatted about letest updates and facts for {topic}
+  agent : writing_agent
